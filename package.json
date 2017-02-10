@@ -1,17 +1,21 @@
 {
   "name": "ember-cli-deploy-composer",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember cli deploy plugin that runs `composer install` before your build",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Martin Malinda",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/MartinMalinda/ember-cli-deploy-composer.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
