@@ -7,7 +7,7 @@ var exec = require('child_process').exec;
 var RSVP = require('rsvp');
 
 module.exports = {
-  name: 'ember-cli-deploy-composer'
+  name: 'ember-cli-deploy-composer',
 
   createDeployPlugin: function(options) {
     var DeployPlugin = BasePlugin.extend({
